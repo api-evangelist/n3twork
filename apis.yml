@@ -1,7 +1,25 @@
 aid: n3twork
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/n3twork.png
 name: N3twork
-description: 'N3twork is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'N3TWORK Studios Inc is a mobile and blockchain gaming studio behind
+  role-playing titles including Legendary: Game of Heroes, Legendary: Heroes Unchained,
+  and Triumph. N3TWORK was previously known for its mobile game network and free-to-play
+  publishing/user-acquisition platform, and was backed by GV (Google Ventures) among
+  other investors. As of this enrichment pass the company publishes no public developer
+  API, SDK, developer portal, or technical documentation surface; this profile is
+  maintained in the API Evangelist network as a company record. Sector: consumer /
+  gaming.'
 url: https://raw.githubusercontent.com/api-evangelist/n3twork/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Gaming
+- Mobile Games
+- Blockchain
+- Web3
+- Games
+- Studio
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/n3twork-domain-security.yml
 - type: Website
-  url: http://n3twork.com
+  url: https://n3twork.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
